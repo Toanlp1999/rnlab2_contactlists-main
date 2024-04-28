@@ -120,3 +120,35 @@ const DrawerNavigator= () =>
 }
 
 export default DrawerNavigator; 
+/*const Tab = createMaterialBottomTabNavigator();
+const TabNavigator= ()=>{
+    return(
+        <NavigationContainer>
+            <Tab.Navigator
+                initialRouteName= 'ContactsScreens'
+                barStyle= {{backgroundColor: colors.blue}}
+                labeled={false}
+                activeTintColor={colors.greyLight}
+                inactiveColor={colors.greyDark}
+            >
+                <Tab.Screen name="ContactsScreens" component={ContactsScreens}
+                    options={{
+                        tabBarIcon: getTabBarIcon('list')
+                    }}
+                />
+                <Tab.Screen name="FavoritesScreens" component={FavoritesScreens}
+                    options={{
+                        tabBarIcon: getTabBarIcon('star')
+                    }}
+                />
+                <Tab.Screen name="UserScreens" component={UserScreens}
+                    options={{
+                        tabBarIcon: getTabBarIcon('person')
+                    }}
+                />
+            </Tab.Navigator>
+        </NavigationContainer>
+    )
+}
+
+export default TabNavigator;*/
